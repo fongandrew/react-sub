@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noFallthroughCasesInSwitch": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "paths": {},
+    "baseUrl": ".",
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.*"
+  ]
+}

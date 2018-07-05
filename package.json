@@ -1,0 +1,29 @@
+{
+  "name": "react-sub",
+  "version": "0.1.0",
+  "description": "React subscription tracking",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf ./dist"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.11",
+    "@types/jest": "^23.1.4",
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.3.0",
+    "react-dom": "^16.4.1",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^23.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
